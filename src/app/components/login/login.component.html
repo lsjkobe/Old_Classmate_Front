@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<ul>
+  <table >
+    <!-- [value]="username" (input)="username=$event.target.value" -->
+    <input type="text" [(ngModel)]="user.name">
+    <br>
+    <input type="password" [(ngModel)]="user.password">
+    <button (click) = "login()">login</button>
+  </table>
+<h1>{{results}}</h1>
+</ul>
