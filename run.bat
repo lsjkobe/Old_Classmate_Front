@@ -1,1 +1,1 @@
-start /b npm start
+npm start
