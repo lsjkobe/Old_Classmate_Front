@@ -13,7 +13,7 @@ pipeline {
     }
     stage('npm start') {
       steps {
-        bat(script: 'npm start', returnStdout: true, returnStatus: true)
+        bat(script: 'start /b npm start', returnStdout: true, returnStatus: true)
       }
     }
   }
