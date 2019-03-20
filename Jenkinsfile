@@ -8,7 +8,7 @@ pipeline {
     }
     stage('npm install') {
       steps {
-        bat(script: 'npm install', returnStatus: true, returnStdout: true)
+        bat(script: 'npm update', returnStatus: true, returnStdout: true)
       }
     }
     stage('npm start') {
