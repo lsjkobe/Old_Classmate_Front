@@ -1,16 +1,35 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!-- <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
   </h1>
 </div>
 <ul>
   <table >
-    <!-- [value]="username" (input)="username=$event.target.value" -->
     <input type="text" [(ngModel)]="user.name">
     <br>
     <input type="password" [(ngModel)]="user.password">
     <button (click) = "login()">login123</button>
   </table>
 <h1>{{results}}</h1>
-</ul>
+</ul> -->
+
+
+<body class="text-center">
+  <form class="form-signin">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <label for="username" class="sr-only">username</label>
+    <input type="text" id="username" class="form-control" placeholder="username" name="username" [(ngModel)]="user.name" >
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" [(ngModel)]="user.password" >
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login()">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2019</p>
+    <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
+  </form>
+  
+</body>

@@ -11,6 +11,7 @@ import { RoutingModule } from './routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CreateComponent } from './components/schoolfellow/create/create.component';
+import { UploadComponent } from './components/tools/upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CreateComponent } from './components/schoolfellow/create/create.compone
     SchoolfellowComponent,
     DashboardComponent,
     HeaderComponent,
-    CreateComponent
+    CreateComponent,
+    UploadComponent
   ],
   imports: [
     BrowserModule,

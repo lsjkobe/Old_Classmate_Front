@@ -1,3 +1,4 @@
+import { UploadComponent } from './components/tools/upload/upload.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { CreateComponent } from './components/schoolfellow/create/create.component';
 import { LoginComponent } from './components/login/login.component';
@@ -10,7 +11,9 @@ const routes: Routes = [
     {path: 'login', component: LoginComponent},
     { path: 'dashboard', component: DashboardComponent },
     { path: 'schoolfellow', component: SchoolfellowComponent},
-    { path: 'create', component: CreateComponent}
+    { path: 'create', component: CreateComponent},
+    { path: 'upload', component: UploadComponent}
+    
   ];
 
   @NgModule({
