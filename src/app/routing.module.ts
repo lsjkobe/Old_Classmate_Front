@@ -1,3 +1,4 @@
+import { MditorMdComponent } from './components/markdown/mditor-md/mditor-md.component';
 import { UploadComponent } from './components/tools/upload/upload.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { CreateComponent } from './components/schoolfellow/create/create.component';
@@ -12,8 +13,9 @@ const routes: Routes = [
     { path: 'dashboard', component: DashboardComponent },
     { path: 'schoolfellow', component: SchoolfellowComponent},
     { path: 'create', component: CreateComponent},
-    { path: 'upload', component: UploadComponent}
-    
+    { path: 'texteditor', component: MditorMdComponent},
+    { path: 'upload', component: UploadComponent},
+   
   ];
 
   @NgModule({

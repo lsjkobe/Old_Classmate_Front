@@ -2,7 +2,8 @@
     "/oauth/token": {
         "target": "http://localhost:8088"
     },
-    "/api": {
-        "target": "http://localhost:8500"
+
+    "/md": {
+        "target": "http://localhost:8606"
     }
 }

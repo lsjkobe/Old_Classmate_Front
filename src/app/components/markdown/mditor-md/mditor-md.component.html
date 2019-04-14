@@ -1,0 +1,10 @@
+<button class="btn btn-lg btn-primary btn-block" (click)="save()">保存</button>
+<!-- <button (click)="get()">get</button> -->
+<!-- <div id="md" app-markdown [editormdConfig]="conf" (onEditorChange)="syncModel($event)"> -->
+<div id="md" >
+  <textarea  style="display: block;" [(ngModel)]="mdFile.data"></textarea>
+</div>
+<hr>
+<!-- <h2>Markdown内容:</h2>
+<span>{{mdFile.data}}</span>
+<textarea  style="display: block;" [(ngModel)]="mdFile.data"></textarea> -->

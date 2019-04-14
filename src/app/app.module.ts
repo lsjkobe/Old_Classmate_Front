@@ -12,6 +12,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CreateComponent } from './components/schoolfellow/create/create.component';
 import { UploadComponent } from './components/tools/upload/upload.component';
+import { MarkdownComponent } from './components/markdown/markdown.component';
+import { MditorMdComponent } from './components/markdown/mditor-md/mditor-md.component';
+import { ShowComponent } from './components/markdown/show/show.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { UploadComponent } from './components/tools/upload/upload.component';
     DashboardComponent,
     HeaderComponent,
     CreateComponent,
-    UploadComponent
+    UploadComponent,
+    MarkdownComponent,
+    MditorMdComponent,
+    ShowComponent
   ],
   imports: [
     BrowserModule,
